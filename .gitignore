@@ -1,4 +1,4 @@
-# 忽略数据集和大型文件
+# dataset&profit
 /checkpoints/
 /eval_results/
 /samples/
@@ -17,7 +17,7 @@
 *.png
 *.jpg
 
-# 忽略Python编译文件和虚拟环境
+# Python Encoded&env
 __pycache__/
 *.py[cod]
 *$py.class
@@ -25,12 +25,12 @@ __pycache__/
 venv/
 env/
 
-# 忽略IDE特定文件
+# IDE specific doc
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# 忽略系统文件
+# sys doc
 .DS_Store
 Thumbs.db
