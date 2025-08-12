@@ -1,0 +1,36 @@
+# 忽略数据集和大型文件
+/checkpoints/
+/eval_results/
+/samples/
+/samples_sam/
+/utils/
+/outputs/
+/RSGUnet_proj/RSGUnet/
+*.csv
+*.zip
+*.tar
+*.gz
+*.h5
+*.pth
+*.pt
+*.bin
+*.png
+*.jpg
+
+# 忽略Python编译文件和虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+.env/
+venv/
+env/
+
+# 忽略IDE特定文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
