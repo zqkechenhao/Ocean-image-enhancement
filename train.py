@@ -42,7 +42,7 @@ from utils import (
 
 import logging
 
-# --------------------------------- 配置 --------------------------------- #
+# --------------------------------- configuration --------------------------------- #
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -53,7 +53,7 @@ RUN_NAME = f"rsgunet_new_color"
 RESUME_CHECKPOINT = f"checkpoints/rsgunet_new_color/{RUN_NAME}_epoch0.pth"
 
 
-# --------------------------------- 主函数 --------------------------------- #
+# --------------------------------- main function --------------------------------- #
 def main():
     callbacks = TrainerCallbacks(RUN_NAME, BATCH_SIZE, output_dir="outputs")
     os.makedirs('checkpoints', exist_ok=True)
